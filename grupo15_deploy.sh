@@ -119,7 +119,8 @@ sleep 3
 echo "Testeando el codigo"
 
 cd "/root/BootCamp-DevOps-roxross"
-if [ -d "$REPO/app-295devops-travel" ]; then
+if [ -d "$REPO/app-295devops-travel" ];
+then
 	echo "El codigo del app ya existe"
 else
 	echo "Procediendo a copiar el codigo del app"
